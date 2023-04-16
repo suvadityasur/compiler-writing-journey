@@ -3,4 +3,4 @@ project(minicc C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(minicc main.c token.h scanner.c scanner.h common.h)
+add_executable(minicc main.c token.h scanner.c scanner.h common.h ast.h ast.c util.c util.h)
